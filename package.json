@@ -1,15 +1,12 @@
 {
-  "name": "clonespotfy",
+  "name": "curso_tailwind",
   "version": "1.0.0",
-  "description": "",
+  "description": "Curso de Tailwind - Hora de Codar",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Matheus",
-  "license": "ISC",
-  "dependencies": {
-    "tailwindcss": "^1.8.10"
-  }
+  "author": "Willian Gomes",
+  "license": "ISC"
 }
