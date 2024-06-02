@@ -1,1 +1,3 @@
-Curso de Tailwind - Hora de Codar
+Estudo da documentação do Tailwind
+Iniciado em: 01-06-2024
+concluido em:
