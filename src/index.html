@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-stone-500">
+    <div
+      class="py-8 px-8 max-w-sm mx-auto mt-1 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6"
+    >
+      <img
+        class="block mx-auto h-24 rounded-full sm:mx-0 sm:shrink-0"
+        src="/src/img/Captura de tela 2024-05-19 223410.png"
+        alt="Woman's Face"
+      />
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">Willian Gomes</p>
+          <p class="text-slate-500 font-medium">Desenvolvedor Web</p>
+        </div>
+        <button
+          class="bg-sky-500 hover:bg-sky-600 rounded-xl p-2 text-cyan-100 font-medium px-5 "
+        >
+          Salvar
+        </button>
+      </div>
+    </div>
+    <div class="mx-auto my-1 max-w-sm shadow-md rounded-xl p-10 bg-stone-100">
+      <fieldset>
+        <legend class="text-slate-400 font-bold">Status publicado</legend>
+        <hr />
+
+        <input
+          id="draft"
+          class="peer/draft"
+          type="radio"
+          name="status"
+          checked
+        />
+        <label for="draft" class="peer-checked/draft:text-sky-500"
+          >Rascunho</label
+        >
+
+        <input
+          id="published"
+          class="peer/published"
+          type="radio"
+          name="status"
+        />
+        <label for="published" class="peer-checked/published:text-sky-500"
+          >Publicados</label
+        >
+
+        <div class="hidden peer-checked/draft:block">
+          Os rascunhos são visíveis apenas para administradores.
+        </div>
+        <div class="hidden peer-checked/published:block">
+          Sua postagem ficará visível publicamente em seu site.
+        </div>
+      </fieldset>
+    </div>
+  </body>
+</html>
